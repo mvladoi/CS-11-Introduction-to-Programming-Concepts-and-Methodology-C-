@@ -1,0 +1,15 @@
+Q1: To how many numeric fields does width() or setw() formatting functions apply?
+Width() or setw() formatting functions apply to 5 numeric fields.
+
+Q2: By default, are numbers output ios::left or ios::right?
+The numbers are outputed ios::left;
+
+Q3: How many digits are displayed? Why?
+5 digits are displayed, because the number of digidts is bigger than 
+the value of setw().
+
+Q4: What is the problem with this code?
+You can not enter the name.
+
+Q5: Why did this line fix the problem?
+ Because ws clears whitespace from buffer.
