@@ -1,0 +1,42 @@
+postal.cpp program
+
+A program that ask the user for a zip code and converted to a barcode.
+
+1.I have to ask the user for a zip code.
+2.I store that data in a variable.
+3.I create a loop because I want to print more bare codes.
+4.I have to put a test condition for my loop.
+5.I have to make a function to check if the user type the right zip code.
+     a.I write the comment for the function.
+     b.I prototype the function before the main function.
+     c.My function take a integer as an argument so I have an int parameter
+       and I want to return a bool value to tell me if the zip code is valid
+       (true) or invalid (false).
+     d.Inside the function I create an if - else statement and I check if the 
+       zip code is negative, if it is < than 99999, if it is > 10000, if the input
+       fail.
+6.If the input is valid I have to take that zip code and converted to a barcode.
+7.I create a function to convert the zip code into a bar code.
+      a.I write the comment for the function.
+      b.I prototype the function before the main function.
+      c.My function takes an integer as an argument so I have an int parameter and 
+        I want to return the bar code (string).
+      d.I create some local variables.
+      e.I make a loop because I have to conver each digit from the zip code.
+      f.I know that the code has 5 digit and the loop runs five time.
+      g.I divide the zip code by 10000 so I have the first digit and the remainder is 
+        the next zip code.(next time I divide by 1000, 100, 10).
+      h.Each time I have the digit I call another function which convert the digit into
+        a bar code and the I save the return from that function into a string variable.
+      i.I add all this strings and I save them in my final string.
+      j.I add the digits and fing the last digit.
+      k.I call my function to convert this digit into a barcode.
+      l.I add the string to my final string and return it to my main function.
+  8.My last functin has to convert one digit into a bar code.
+      a.I write the comment for the function.
+      b.I prototype the function before the main function.
+      c.The function takes ant int as an argument and return a string.
+      d.I create a switch statement and and each digit has a bar code (string).
+      f.I return the string.
+   9.I output the final string to the console.
+  10.I translate this pseudocode in c++;

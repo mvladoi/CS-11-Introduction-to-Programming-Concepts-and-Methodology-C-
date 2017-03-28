@@ -1,0 +1,5 @@
+Q1: What do you type to compile a program named foo.cpp?
+I type g++ -Wall -W -pedantic -o foo foo.cpp
+
+Q2: What do you type to run the source code you compile with question 1?
+I type ./foo 
